@@ -29,59 +29,59 @@ class MainActivity : AppCompatActivity() {
         findBT.setOnClickListener{view ->
             if (flag == "cooking") {
                     if (flag2 == "1") {
-                        textFR.text = (1 * 3.75).toString() + " JOD"
+                        textFR.text = "you will pay "+(1 * 3.75).toString() + " JOD"+" for "+flag2+" hour"
                     }
                     else if (flag2 == "2") {
-                        textFR.text = (2 * 3.75).toString() + " JOD"
+                        textFR.text = "you will pay "+(2 * 3.75).toString() + " JOD"+" for "+flag2+" hours"
                     }
                     else if (flag2 == "7") {
-                        textFR.text = (7 * 3.75).toString() + " JOD"
+                        textFR.text = "you will pay "+(7 * 3.75).toString() + " JOD"+" for "+flag2+" hours"
                     }
                     else if (flag2 == "9") {
-                        textFR.text = (9 * 3.75).toString() + " JOD"
+                        textFR.text = "you will pay "+(9 * 3.75).toString() + " JOD"+" for "+flag2+" hours"
                     }
 
             }
             else if (flag == "washing") {
                     if (flag2 == "1") {
-                        textFR.text = (1 * 4.75).toString() + " JOD"
+                        textFR.text = "you will pay "+(1 * 4.75).toString() + " JOD"+" for "+flag2+" hour"
                     }
                     else if (flag2 == "2") {
-                        textFR.text = (2 * 4.75).toString() + " JOD"
+                        textFR.text = "you will pay "+(2 * 4.75).toString() + " JOD"+" for "+flag2+" hours"
                     }
                     else if (flag2 == "7") {
-                        textFR.text = (7 * 4.75).toString() + " JOD"
+                        textFR.text = "you will pay "+(7 * 4.75).toString() + " JOD"+" for "+flag2+" hours"
                     }
                     else if (flag2 == "9") {
-                        textFR.text = (9 * 4.75).toString() + " JOD"
+                        textFR.text = "you will pay "+(9 * 4.75).toString() + " JOD"+" for "+flag2+" hours"
                     }
             }
             else if (flag == "dusting") {
                 if (flag2 == "1") {
-                    textFR.text = (1*5).toString()+" JOD"
+                    textFR.text = "you will pay "+(1*5).toString()+" JOD"+" for "+flag2+" hour"
                 }
                 else if (flag2 == "2") {
-                    textFR.text = (2*5).toString()+" JOD"
+                    textFR.text = "you will pay "+(2*5).toString()+" JOD"+" for "+flag2+" hours"
                 }
                 else if (flag2 == "7") {
-                    textFR.text = (7*5).toString()+" JOD"
+                    textFR.text = "you will pay "+(7*5).toString()+" JOD"+" for "+flag2+" hours"
                 }
                 else if (flag2 == "9") {
-                    textFR.text = (9*5).toString()+" JOD"
+                    textFR.text = "you will pay "+(9*5).toString()+" JOD"+" for "+flag2+" hours"
                 }
             }
             else if (flag == "dog walking") {
                 if (flag2 == "1") {
-                    textFR.text = (1*7).toString()+" JOD"
+                    textFR.text = "you will pay "+(1*7).toString()+" JOD"+" for "+flag2+" hour"
                 }
                 else if (flag2 == "2") {
-                    textFR.text = (2*7).toString()+" JOD"
+                    textFR.text = "you will pay "+(2*7).toString()+" JOD"+" for "+flag2+" hours"
                 }
                 else if (flag2 == "7") {
-                    textFR.text = (7*7).toString()+" JOD"
+                    textFR.text = "you will pay "+(7*7).toString()+" JOD"+" for "+flag2+" hours"
                 }
                 else if (flag2 == "9") {
-                    textFR.text = (9*7).toString()+" JOD"
+                    textFR.text = "you will pay "+(9*7).toString()+" JOD"+" for "+flag2+" hours"
                 }
             }
 
